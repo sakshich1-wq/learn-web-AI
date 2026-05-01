@@ -27,7 +27,7 @@ const steps = [
 
 export default function ProfessionalPath() {
   return (
-    <section className="py-24 bg-white" id="professional-path">
+    <section className="py-24 bg-white scroll-mt-24" id="professional-path">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <motion.h2 

@@ -21,7 +21,7 @@ const tools = [
 
 export default function AISuperpowers() {
   return (
-    <section className="py-24 bg-surface-container" id="ai-tools">
+    <section className="py-24 bg-surface-container scroll-mt-24" id="ai-tools">
       <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
         <div className="space-y-8">
           <motion.h2 

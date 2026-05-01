@@ -2,11 +2,11 @@ import { motion } from 'motion/react';
 
 export default function Navbar() {
   const navLinks = [
-    { label: 'Curriculum', href: '#', active: true },
-    { label: 'Projects', href: '#' },
-    { label: 'Tools', href: '#' },
-    { label: 'Notes', href: '#' },
-    { label: 'Prompt Library', href: '#' },
+    { label: 'Curriculum', href: '#professional-path' },
+    { label: 'Projects', href: '#projects' },
+    { label: 'Tools', href: '#ai-tools' },
+    { label: 'Notes', href: '#notes' },
+    { label: 'Prompt Library', href: '#prompts' },
   ];
 
   return (
@@ -26,9 +26,7 @@ export default function Navbar() {
             <a
               key={link.label}
               href={link.href}
-              className={`text-sm font-semibold tracking-tight transition-colors hover:text-secondary ${
-                link.active ? 'text-primary border-b-2 border-secondary pb-1' : 'text-on-surface-variant'
-              }`}
+              className="text-sm font-semibold tracking-tight transition-colors hover:text-secondary text-on-surface-variant"
             >
               {link.label}
             </a>

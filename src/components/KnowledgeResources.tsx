@@ -20,10 +20,10 @@ const prompts = [
 
 export default function KnowledgeResources() {
   return (
-    <section className="py-24" id="resources">
+    <section className="py-24 scroll-mt-20" id="resources">
       <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16">
         {/* Revision Bites */}
-        <div className="space-y-8">
+        <div className="space-y-8 scroll-mt-24" id="notes">
           <div className="flex items-center gap-3">
             <Lightbulb className="w-8 h-8 text-secondary" />
             <h3 className="text-3xl font-bold">Revision Bites</h3>
@@ -50,7 +50,7 @@ export default function KnowledgeResources() {
         </div>
 
         {/* Prompt Library */}
-        <div className="space-y-8">
+        <div className="space-y-8 scroll-mt-24" id="prompts">
           <div className="flex items-center gap-3">
             <Library className="w-8 h-8 text-secondary" />
             <h3 className="text-3xl font-bold">AI Prompts for Developers</h3>
